@@ -1,4 +1,6 @@
-﻿namespace Day_3B_OppsConcept
+﻿using static Day_3B_OppsConcept.TypesOfConstructor;
+
+namespace Day_3B_OppsConcept
 {
     internal class Program
     {
@@ -14,6 +16,11 @@
             TypeOfConstructor copyConstructor = new TypeOfConstructor(parameterConstructor);
 
             TypeOfConstructor.SampleMessage();
+
+
+            //Interface//
+            BankManager bankManager = new BankManager();
+            bankManager.GetBankDetails();
         }
     }
 }
